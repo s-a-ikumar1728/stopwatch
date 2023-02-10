@@ -22,10 +22,10 @@ resetBtn.addEventListener('click', function () {
 	minute = 0;
 	second = 0;
 	count = 0;
-	document.getElementById('hr').innerHTML = "00";
-	document.getElementById('min').innerHTML = "00";
-	document.getElementById('sec').innerHTML = "00";
-	document.getElementById('count').innerHTML = "00";
+	document.querySelector('#hr').innerHTML = "00";
+	document.querySelector('#min').innerHTML = "00";
+	document.querySelector('#sec').innerHTML = "00";
+	document.querySelector('#count').innerHTML = "00";
 });
 
 function stopWatch() {
